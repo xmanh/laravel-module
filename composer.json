@@ -1,0 +1,33 @@
+{
+    "name": "xmanh/laravel-module",
+    "description": "Laravel Module Architecture",
+    "keywords": [
+        "laravel",
+        "module"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manh NX",
+            "email": "ng.xuanmanh@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "XManh\\Module\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "XManh\\Module\\Providers\\ModuleServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
